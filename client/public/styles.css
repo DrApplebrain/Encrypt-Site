@@ -1,0 +1,15 @@
+:root{
+    font-size: 62.5%;
+}
+
+html,
+body,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}

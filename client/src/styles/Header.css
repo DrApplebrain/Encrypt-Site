@@ -1,0 +1,236 @@
+:root{
+    font-size: 62.5%;
+}
+
+html,
+body,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    /*border: 0px solid rgb(116, 116, 116);*/
+    border-radius: 19px;
+    /*box-shadow: 0 0 20px 10px rgb(255, 0, 13);*/
+    margin: 1rem 0 1rem 0;
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+}
+
+.house{
+    border: 1px solid rgb(255, 238, 0);
+    border-radius: 14px;
+    box-shadow: 0 0 20px 10px rgb(255, 238, 0);
+    margin-left: 1rem;
+    font-size: 3rem;
+    color: aliceblue;
+    cursor: pointer;
+    text-align: center;
+}
+
+.house :visited{
+    color: aliceblue;
+}
+
+.logo{
+    vertical-align: middle;
+    height: 5rem;
+    width: 140px;
+}
+
+.hamburger{
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 14px;
+    box-shadow: 0 0 20px 10px rgb(255, 0, 13);
+    float: right;
+    font-size: 3rem;
+    color: aliceblue;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 1rem;
+}
+.hamburger :visited{
+    color: aliceblue;
+}
+
+.hamburger :hover{
+    /*box-shadow: 0 0 20px 15px rgb(255, 0, 13);*/
+}
+
+.headerh1{
+    font-size: 3rem;
+    color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.menu{
+    display: none;
+    color: aliceblue;
+    /*background-color: black;*/
+    position: absolute;
+    cursor: pointer;
+    float: right;
+    font-size: 2rem;
+    background-color: black;
+    margin-right: 1rem;
+    border: 2px solid gray;
+    border-radius: 14px;
+    z-index: 1;
+}
+
+.ascii-menu{
+    border-top: 2px;
+    border-radius: 12px 12px 0 0;
+    float: right;
+    padding: 0 1rem 0 1rem;
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+    background-color: black;
+    display: block;
+    
+}
+
+.ascii-menu:hover{
+    background-color: rgb(49, 56, 63);
+}
+
+.qrcode-menu{
+    border-bottom: 2px;
+    border-radius: 0 0 12px 12px;
+    float: right;
+    padding: 0 1rem 0 1rem;
+    
+    font-size: 2rem;
+    background-color: black;
+}
+
+.qrcode-menu:hover{
+    background-color: rgb(49, 56, 63);
+}
+
+@media only screen and (max-width: 650px) {
+    .header{
+        /*border: 0px solid rgb(116, 116, 116);*/
+        border-radius: 19px;
+        /*box-shadow: 0 0 20px 10px rgb(255, 0, 13);*/
+        margin: 1rem 0 1rem 0;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        font-size: 3rem;
+        max-width: 100vw;
+    }
+
+
+    
+    .house{
+        border: 1px solid rgb(255, 238, 0);
+        border-radius: 14px;
+        box-shadow: 0 0 20px 10px rgb(255, 238, 0);
+        font-size: 3rem;
+        color: aliceblue;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .house :visited{
+        color: aliceblue;
+    }
+    
+    .logo{
+        vertical-align: middle;
+        height: 5rem;
+        width: 140px;
+    }
+    
+    .hamburger{
+        border: 1px solid rgb(255, 0, 0);
+        border-radius: 14px;
+        box-shadow: 0 0 20px 10px rgb(255, 0, 13);
+        float: right;
+        font-size: 3rem;
+        color: aliceblue;
+        cursor: pointer;
+        text-align: center;
+        margin-right: 1rem;
+    }
+    .hamburger :visited{
+        color: aliceblue;
+    }
+    
+    .hamburger :hover{
+        /*box-shadow: 0 0 20px 15px rgb(255, 0, 13);*/
+    }
+    
+    .headerh1{
+        font-size: 2rem;
+        color: aliceblue;
+        margin: 0 auto;
+        text-align: center;
+       
+    }
+    
+    .menu{
+        display: none;
+        color: aliceblue;
+        /*background-color: black;*/
+        position: absolute;
+        cursor: pointer;
+        float: right;
+        font-size: 2rem;
+        background-color: black;
+        
+        border: 2px solid gray;
+        border-radius: 14px;
+        z-index: 1;
+    }
+    
+    .ascii-menu{
+        border-top: 2px;
+        border-radius: 12px 12px 0 0;
+        float: right;
+        padding: 0 1rem 0 1rem;
+        font-size: 2rem;
+        margin-bottom: 0.3rem;
+        background-color: black;
+        display: block;
+        
+    }
+    
+    .ascii-menu:hover{
+        background-color: rgb(49, 56, 63);
+    }
+    
+    .qrcode-menu{
+        border-bottom: 2px;
+        border-radius: 0 0 12px 12px;
+        float: right;
+        padding: 0 1rem 0 1rem;
+        
+        font-size: 2rem;
+        background-color: black;
+    }
+    
+    .qrcode-menu:hover{
+        background-color: rgb(49, 56, 63);
+    }
+    
+    .hamburger{
+        border: 1px solid rgb(255, 0, 0);
+        border-radius: 14px;
+        box-shadow: 0 0 20px 10px rgb(255, 0, 13);
+        float: right;
+        font-size: 3rem;
+        color: aliceblue;
+        cursor: pointer;
+        text-align: center;
+        margin-right: 1rem;
+    }
+    .hamburger :visited{
+        color: aliceblue;
+    }
+
+}
