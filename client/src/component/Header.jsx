@@ -55,28 +55,22 @@ function Header() {
 
   let navigate = useNavigate();
   const routeChangeHome = () => {
-    if (url.slice(-1) === "/") {
-      window.location.reload();
-    } else {
+   
       let home = `/`;
       navigate(home);
-    }
+
   };
   const routeChangeASCII = () => {
-    if (url.slice(-5) === "ascii") {
-      window.location.reload();
-    } else {
+   
       let ascii = `/ascii`;
       navigate(ascii);
-    }
+    
   };
   const routeChangeQR = () => {
-    if (url.slice(-2) === "qr") {
-      window.location.reload();
-    } else {
+
       let qr = `/qr`;
       navigate(qr);
-    }
+    
   };
 
   let site = "";

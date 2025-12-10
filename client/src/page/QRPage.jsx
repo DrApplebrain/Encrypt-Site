@@ -3,7 +3,7 @@ import Header from "../component/Header";
 
 import { useState } from "react";
 import { useEffect } from "react";
-import { QRCodeStyling } from "qr-code-styling";
+import QRCodeStyling from "qr-code-styling";
 
 import Herz from "../media/herz.jpg";
 import Baum from "../media/baum.png";
