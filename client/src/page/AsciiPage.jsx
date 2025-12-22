@@ -1,10 +1,10 @@
 import "../styles/AsciiPage.css";
-import Header from "../component/Header";
+import { Header } from "../component/Header";
 import { useRef, useState, useEffect } from "react";
-import Herz from "../media/herz.jpg";
-import Baum from "../media/baum.png";
-import Drache from "../media/drache.jpg";
-import Rose from "../media/rose.png";
+import { Herz } from "../media/herz.jpg";
+import { Baum } from "../media/baum.png";
+import { Drache } from "../media/drache.jpg";
+import { Rose } from "../media/rose.png";
 
 function AsciiPage() {
   const fileInput = document.querySelector('input[type="file"');

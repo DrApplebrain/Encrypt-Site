@@ -1,6 +1,6 @@
-import NavLink from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../styles/Header.css";
-import useNavigate from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
   let hamburgerClick = false;

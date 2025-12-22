@@ -1,17 +1,17 @@
 import "../styles/AsciiPage.css";
-import Header from "../component/Header";
+import { Header } from "../component/Header";
 import { useRef, useState, useEffect } from "react";
-import QRCodeStyling from "qr-code-styling";
-import HTML5Qrcode from "html5-qrcode";
-import Herz from "../media/herz.jpg";
-import Baum from "../media/baum.png";
-import Drache from "../media/drache.jpg";
-import Rose from "../media/rose.png";
-import Dots1 from "../media/dots/dots-1.png";
-import Html5QrcodeScanner from "html5-qrcode";
-import Html5Qrcode from "html5-qrcode";
-import render from "@testing-library/react";
-import html2canvas from "html2canvas";
+import { QRCodeStyling } from "qr-code-styling";
+import { HTML5Qrcode } from "html5-qrcode";
+import { Herz } from "../media/herz.jpg";
+import { Baum } from "../media/baum.png";
+import { Drache } from "../media/drache.jpg";
+import { Rose } from "../media/rose.png";
+import { Dots1 } from "../media/dots/dots-1.png";
+import { Html5QrcodeScanner } from "html5-qrcode";
+import { Html5Qrcode } from "html5-qrcode";
+import { render } from "@testing-library/react";
+import { html2canvas } from "html2canvas";
 
 function QRPage() {
   const [text, setText] = useState("");

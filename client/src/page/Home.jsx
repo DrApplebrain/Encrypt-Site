@@ -1,10 +1,10 @@
-import NavLink from "react-router-dom";
-import Header from "../component/Header";
-import AsciiSmileyPNG from "../media/smile.png";
-import AsciiSmileyGIF from "../media/smile.gif";
-import QRCodePNG from "../media/qr-code.png";
-import QRSmileyPNG from "../media/qr-smiley3.png";
-import QRSmileyGIF from "../media/qr-smiley3.gif";
+import { NavLink } from "react-router-dom";
+import { Header } from "../component/Header";
+import { AsciiSmileyPNG } from "../media/smile.png";
+import { AsciiSmileyGIF } from "../media/smile.gif";
+import { QRCodePNG } from "../media/qr-code.png";
+import { QRSmileyPNG } from "../media/qr-smiley3.png";
+import { QRSmileyGIF } from "../media/qr-smiley3.gif";
 import "../styles/Home.css";
 
 function Home() {
