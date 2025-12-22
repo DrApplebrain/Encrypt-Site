@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import NavLink from "react-router-dom";
 import Header from "../component/Header";
 import AsciiSmileyPNG from "../media/smile.png";
 import AsciiSmileyGIF from "../media/smile.gif";
