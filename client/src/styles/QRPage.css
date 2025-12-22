@@ -1,0 +1,365 @@
+:root{
+    font-size: 62.5%;
+    
+}
+
+html,
+body,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.body {
+    padding: 2rem 3rem;
+    font-family: 'VT323', monospace;
+    line-height: 1.5rem;
+    font-size: 18px;
+    background-color: #000000;
+    /*background-image: linear-gradient(140deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);*/
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header-ascii {
+        align-items: baseline;
+        font-size: 18px;
+        margin: 0 auto;
+        
+    }
+    
+    .header-ascii h1 {
+        margin-right: 1.5rem;
+        text-align: center;
+    }
+    
+    .buttons{
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    #buttons2{
+        margin-top: -5rem;
+    }
+    
+    .buttons nav{
+        background-color: aqua;
+        padding: 1rem 2rem 1rem 2rem;
+        border-radius: 4px;
+        outline: hidden;
+    }
+    
+    .ascii-text{
+        display: grid;
+        margin-bottom: 1rem;
+    }
+    
+    .buttonUse{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+
+    }
+    
+    .encrypt{
+        margin: 2rem 0 4rem 0;
+        background-color: rgb(81, 0, 92);
+        box-shadow: 0 0 20px 10px rgb(116, 29, 128);
+        border-radius: 9px;
+        cursor: pointer;
+        padding: 1rem 2rem 1rem 2rem;
+        width: 7.1rem;
+        
+        
+    }
+    
+    .decrypt{
+        margin: 2rem 0 4rem 0;
+        background-color: rgb(81, 0, 92);
+        box-shadow: 0 0 20px 10px rgb(116, 29, 128);
+        border-radius: 9px;
+        cursor: pointer;
+        padding: 1rem 2rem 1rem 2rem;
+        width: 7.1rem;
+    }
+    
+    .decrypt-text{
+        height: 20rem;
+    }
+    
+    pre {
+        font-family: 'Courier New', 'monospace';
+        width: 100%;
+        font-size: 0.4rem;
+        line-height: 1;
+        background-color: aliceblue;
+        height: 20rem;
+        display: none;
+        overflow: scroll;
+    }
+    
+    .imageHead{
+        margin: 2rem 5rem 4rem 5rem;
+        background-color: rgb(31, 245, 31);
+        border-radius: 9px;
+    }
+    
+    .copy{
+        display: none;
+        background-color: rgb(31, 245, 31);
+        border-radius: 12px;
+        height: 4rem;
+        width: 7rem;
+    }
+    
+    .download{
+        display: none;
+        background-color: rgb(31, 245, 31);
+        border-radius: 12px;
+        height: 4rem;
+        width: 7rem;
+    }
+    
+    
+    .encrypt-text{
+        height: 20rem;
+    }
+    
+    .ascii-text textarea{
+        height: 20rem;
+
+        
+    }
+    
+    .input {
+        margin-top: 2rem;
+        font-size: 15px;
+        width: 22vw;
+        
+    }
+    
+    .pictureWrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    
+    
+    #preview{
+        min-width: 300%;
+        max-width: 600%;
+        
+        
+    }
+    
+    #canvasqr{
+        background-color: aliceblue; 
+        height: auto;
+        object-fit: fill;
+    }
+    
+    .overqr{
+        object-fit: fill;
+        
+    }
+    
+    svg{
+
+    }
+    
+    .qr-area{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 1rem;
+        max-width: 100vw;
+    }
+    
+    .clear{
+        float: right;
+    }  
+
+}
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+.header-ascii {
+    align-items: baseline;
+    font-size: 18px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 100px;
+}
+
+.header-ascii h1 {
+    margin-right: 1.5rem;
+    text-align: center;
+}
+
+.buttons{
+    margin-top: 3rem;
+    display: block;
+}
+
+#buttons2{
+    margin-top: -5rem;
+}
+
+.buttons nav{
+    background-color: aqua;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 4px;
+    outline: hidden;
+}
+
+.ascii-text{
+    margin-bottom: 1rem;
+}
+
+.buttonUse{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.encrypt{
+    margin: 4rem 0 4rem 0;
+    background-color: rgb(81, 0, 92);
+    box-shadow: 0 0 20px 10px rgb(116, 29, 128);
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 1rem 2rem 1rem 2rem;
+    width: 7.1rem;
+    
+    
+}
+
+.decrypt{
+    margin: 2rem 0 4rem 0;
+    background-color: rgb(81, 0, 92);
+    box-shadow: 0 0 20px 10px rgb(116, 29, 128);
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 1rem 2rem 1rem 2rem;
+    width: 7.1rem;
+}
+
+.decrypt-text{
+    height: 20rem;
+}
+
+.imageHead{
+    margin: 2rem 5rem 4rem 5rem;
+    background-color: rgb(31, 245, 31);
+    border-radius: 9px;
+}
+
+.copy{
+    display: none;
+    background-color: rgb(31, 245, 31);
+    border-radius: 12px;
+    height: 4rem;
+    width: 7rem;
+}
+
+.download{
+    display: none;
+    background-color: rgb(31, 245, 31);
+    border-radius: 12px;
+    height: 4rem;
+    width: 7rem;
+}
+
+
+.encrypt-text{
+    height: 20rem;
+    width: 100%;
+}
+
+.ascii-text textarea{
+    height: 20rem;
+    
+}
+
+.input {
+    margin-top: 2rem;
+    font-size: 15px;
+    width: 22vw;
+}
+
+
+#preview{
+    min-width: 300%;
+    max-width: 600%;
+    
+    
+}
+
+#canvasqr{
+    background-color: aliceblue; 
+    height: auto;
+    object-fit: fill;
+}
+
+.overqr{
+    object-fit: fill;
+    
+}
+
+svg{
+    min-width: 180px;
+    max-width: 180px;
+    min-height: 180px;
+    max-height: 180px;
+}
+
+.qr-area{
+
+    margin-bottom: 1rem;
+    max-width: 100vw;
+    
+}
+
+.clear{
+    float: right;
+}
+
+#text{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#image{
+
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+.buttonUse{
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.overqr{
+    grid-column: 3;
+    grid-row: 1;
+    
+
+}
+
+}

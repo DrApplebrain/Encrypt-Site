@@ -1,0 +1,115 @@
+.ascii {
+  margin: auto;
+  margin-top: 6rem;
+  box-sizing: border-box;
+  border-radius: 14px;
+  border: 1px solid rgb(255, 217, 0);
+  box-shadow: 0 0 20px 10px rgb(255, 230, 0);
+  color: rgb(255, 224, 88);
+  width: 80vw;
+}
+
+.ascii-image {
+  width: 20vw;
+  display: flex;
+  margin: auto;
+  margin-top: 1rem;
+  border: 0px;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.qrcode {
+  margin: auto;
+  margin-top: 4rem;
+  box-sizing: border-box;
+  border-radius: 14px;
+  border: 1px solid rgb(255, 0, 13);
+  box-shadow: 0 0 20px 10px rgb(255, 0, 13);
+  color: rgb(255, 0, 13);
+  width: 80vw;
+}
+
+.qr-image {
+  width: 20vw;
+  display: flex;
+  margin: auto;
+  margin-top: 1rem;
+  border: 0px;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.qr-smiley {
+  width: 15vw;
+  position: absolute;
+  margin-left: 32.5%;
+  margin-top: -17.5%; /* for relative positioning */
+}
+
+.house2 {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(128, 82, 120);
+}
+
+h2 {
+  margin-top: 0.2rem;
+}
+
+@media only screen and (min-width: 651px) {
+
+  .home{
+    height: 100%;
+  }
+
+  .file-format{
+    display: grid;
+  }
+
+  .ascii {
+    margin: auto;
+    margin-top: 6rem;
+    box-sizing: border-box;
+    border-radius: 14px;
+    border: 1px solid rgb(255, 217, 0);
+    box-shadow: 0 0 20px 10px rgb(255, 230, 0);
+    color: rgb(255, 224, 88);
+    max-width: 80vw;
+  }
+
+
+
+  .qrcode {
+    margin: auto;
+    margin-top: 4rem;
+    box-sizing: border-box;
+    border-radius: 14px;
+    border: 1px solid rgb(255, 0, 13);
+    box-shadow: 0 0 20px 10px rgb(255, 0, 13);
+    color: rgb(255, 0, 13);
+    max-width: 80vw;
+    margin-bottom: 800px;
+  }
+
+}
+
+@media only screen and (min-width: 1025px) {
+  .text{
+    
+  }
+
+}
+
