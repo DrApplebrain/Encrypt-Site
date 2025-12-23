@@ -100,9 +100,9 @@ function Header() {
       <div></div>
       <div className="menus">
         <div className="menu" onMouseOver={hoverHamburger} onMouseOut={unhoverHamburger}>
-          <div className="ascii-menu" onClick={routeChangeASCII}>Generate Ascii-Code</div>
+          
           <div className="qrcode-menu" onClick={routeChangeQR}>Generate QR-Code</div>
-        
+        <div className="ascii-menu" onClick={routeChangeASCII}>Generate Ascii-Code</div>
         </div>
       </div>
     </div>
