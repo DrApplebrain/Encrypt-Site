@@ -1,8 +1,8 @@
 import "../styles/AsciiPage.css";
 import Header from "../component/Header";
-import useRef from "react";
-import useState from "react";
-import useEffect from "react";
+import { useRef } from "react";
+import { useState } from "react";
+import { useEffect } from "react";
 import Herz from "../media/herz.jpg";
 import Baum from "../media/baum.png";
 import Drache from "../media/drache.jpg";

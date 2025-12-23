@@ -1,8 +1,8 @@
 import "../styles/AsciiPage.css";
 import Header from "../component/Header";
-import useRef from "react";
-import useState from "react";
-import useEffect from "react";
+import { useRef } from "react";
+import { useState } from "react";
+import { useEffect } from "react";
 import QRCodeStyling from "qr-code-styling";
 import HTML5Qrcode from "html5-qrcode";
 import Herz from "../media/herz.jpg";
